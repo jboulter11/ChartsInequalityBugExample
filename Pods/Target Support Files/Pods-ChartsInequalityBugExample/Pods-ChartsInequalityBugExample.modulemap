@@ -1,0 +1,6 @@
+framework module Pods_ChartsInequalityBugExample {
+  umbrella header "Pods-ChartsInequalityBugExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
