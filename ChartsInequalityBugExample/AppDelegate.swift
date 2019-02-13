@@ -29,8 +29,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let dataSet1 = BarChartDataSet(values: [entry1], label: nil)
         let dataSet2 = BarChartDataSet(values: [entry2], label: nil)
         
-        // I specifically check if two data sets have the same values
-        // before performing an operation to re-render the chart with the new dataset.
         // Here we see they are not the same, but this assert will fail.
         assert(dataSet1.values != dataSet2.values)
         
